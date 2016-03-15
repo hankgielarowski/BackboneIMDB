@@ -1,0 +1,50 @@
+
+
+
+body {
+  margin:5%;
+  width:85%;
+  background-color: chartreuse;
+}
+
+img {
+  width: 180px;
+  height:200px;
+}
+div {
+  display: inline-block;
+  width: 100%;
+}
+article {
+  /*border: 1px solid black;*/
+  display: inline-block;
+  height:30%;
+  width:30%;
+  margin-top: 2%;
+  margin-right: 2%;
+  text-align: center;
+}
+.addButtons {
+  border:2px solid black;
+  margin-top: 5%;
+  width:50%;
+  margin-left: 22%;
+}
+input {
+    width: 50%%;
+    display: block;
+    text-align: center;
+    height: 12%;
+    margin-top: 1%;
+}
+form {
+  text-align: -webkit-center;
+}
+.delete {
+  background-color: red;
+}
+h3 {
+  text-align: center;
+  color:purple;
+  font-size: 40px;
+}
