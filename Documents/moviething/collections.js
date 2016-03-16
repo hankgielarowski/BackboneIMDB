@@ -1,4 +1,4 @@
-var movieCollection = Backbone.Collection.extend({
+var MovieCollection = Backbone.Collection.extend({
   model: MovieModel,
   initialize: function (options) {
     console.log(options);
