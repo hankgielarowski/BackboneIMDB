@@ -34,7 +34,7 @@ templates.movie = [
 
 
    templates.addMovie = [
-     '<form class="" action="index.html" method="post">',
+     '<form class="">',
      '<input type="text" name="image" value="" placeholder="Image">',
      '<input type="text" name="title" value="" placeholder="Title">',
      '<input type="text" name="director" value="" placeholder="Director">',

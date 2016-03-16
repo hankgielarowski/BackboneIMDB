@@ -15,7 +15,8 @@ var CreateMovieView=Backbone.View.extend({
     this.$el.find('input').val('');
     this.$el.find('textarea').val('');
     this.collection.add(this.model);
-    console.log(this.collection);
+    console.log(this.collection.length);
+    this.model = new MovieModel({});
   },
   initialize: function () {
     if(!this.model) {
